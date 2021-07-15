@@ -1,6 +1,6 @@
 clear all;
 close all;
-data=csvread('econ_experiments_data.csv');
+data=csvread('../data/econ_experiments_data.csv');
 z1 = data(:,1);
 n1 = data(:,2);
 z2 = data(:,3);
